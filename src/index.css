@@ -1,0 +1,19 @@
+body{
+  background-color: #171923;
+}
+.navbar{
+  display: flex ;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  
+  padding: 10px;
+}
+.Bcontainer{
+  height: 250px !important;
+}
+
+
+.card {
+  padding: 2em;
+}
