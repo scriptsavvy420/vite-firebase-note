@@ -5,7 +5,7 @@
   },
   "hosting": {
     "site": "notepad-h",
-    "public": "public",
+    "public": "dist",
     "ignore": [
       "firebase.json",
       "**/.*",

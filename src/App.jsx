@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Button, ButtonGroup,Input,useColorMode,Box,Card, Textarea, Stack, SimpleGrid } from '@chakra-ui/react';
 import { Heading } from '@chakra-ui/react'
+import { app, getFirestore } from "firebase";
 
 import './App.css'
 import Dcard from './components/Dcard';
