@@ -1,6 +1,4 @@
-body{
-  background-color: #171923;
-}
+
 .navbar{
   display: flex ;
   justify-content: space-around;
@@ -17,3 +15,7 @@ body{
 .card {
   padding: 2em;
 }
+Hcard{
+  position:relative !important ;
+}
+
