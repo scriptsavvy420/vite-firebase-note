@@ -9,16 +9,18 @@ import {
     Heading,
     useColorMode,
     Divider,
-    IconButton
+    IconButton,
+    useColorModeValue
 } from '@chakra-ui/react';
 import {  DeleteIcon } from '@chakra-ui/icons'
 
-const Dcard = ({data}) => {
+const Dcard = ({data, handleDelete}) => {
     console.log(data)
     const { colorMode, toggleColorMode } = useColorMode();
+    const bg = useColorModeValue('#F8F8FF','#212529');
   return (
     <Card 
-    bg={colorMode==='dark'?'#212529':'fffcf2'}
+    bg={bg}
     padding={5}
     className="Bcontainer"
     maxHeight={'auto'}
@@ -35,7 +37,7 @@ const Dcard = ({data}) => {
 
 
 <IconButton
-
+  onClick={()=>handleDelete(data.id)}
   position={'absolute'}
   bottom={10}
   right={125}

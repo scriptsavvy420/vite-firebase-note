@@ -4,7 +4,7 @@
   justify-content: space-around;
   align-items: center;
   height: 10vh;
-  
+  max-height: 80px !important;
   padding: 10px;
 }
 .Bcontainer{

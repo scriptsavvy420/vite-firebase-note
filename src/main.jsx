@@ -33,7 +33,7 @@ const theme = extendTheme({
   colors,
   styles:{
     global:(props)=>({
-      body:{bg:mode('#f7ede2','#131316')(props),}
+      body:{bg:mode('#F0F8FF','#131316')(props),}
     })
   },
  })
