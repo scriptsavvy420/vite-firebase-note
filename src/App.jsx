@@ -80,9 +80,7 @@ function App() {
         if (!isLoaded) {
             return <CircularProgress isIndeterminate color='brand.red'/>
         } else {
-            console.log('Loading')
             return(data.map((ele) => {
-                console.log(data)
                 return (
                     <Dcard key={
                             ele.id
